@@ -301,6 +301,14 @@ section {
   flex-direction: row;
   justify-content: space-around;
 }
+.article-container > img {
+  height: 15rem;
+  object-fit: cover;
+}
+.details-container h2 {
+  height: 5rem;
+}
+
 article {
   display: flex;
   width: 10rem;

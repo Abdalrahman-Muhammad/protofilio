@@ -1,6 +1,6 @@
 @media screen and (max-width: 1400px) {
   #profile {
-    height: 83vh;
+    height: 50vh;
     margin-bottom: 6rem;
   }
   .about-containers {
@@ -22,6 +22,7 @@
   #profile,
   .section-container {
     display: block;
+    height: auto;
   }
   .arrow {
     display: none;
@@ -34,12 +35,16 @@
     margin: 0 5%;
   }
   .section__pic-container {
-    width: 27px;
+    width: 270px;
     height: 275px;
     margin: 0 auto 2rem;
   }
+
   .about-containers {
     margin-top: 0;
+  }
+  .contact-info-upper-container {
+    flex-direction: column;
   }
 }
 
